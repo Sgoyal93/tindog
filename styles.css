@@ -1,0 +1,178 @@
+.body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    
+}
+.title-image-div{
+    position: relative;
+}
+
+@media (max-width: 1028px){
+    
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/*********************Fatures section*************************/
+
+.features-heading{
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+.features-description{
+    color: #8f8f8f;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-image{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.feature-image:hover{
+    color: #ff4c68;
+}
+
+/*******************Testimonials section******************/
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*********************Press section**********************/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-box{
+    text-align: center;
+    padding: 3% 2%;
+}
+
+.pricing-box-last{
+    text-align: center;
+}
+
+.pricing-text{
+    text-align: center;
+}
+
+/*********************CTA SECTION*************************/
+#cta{
+    background-color: #ff4c68;
+    padding: 7%;
+    
+    text-align: center;
+    color: white;
+}
+.cta-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    padding-bottom: 5%;
+    width: 50%;
+    margin: auto;
+    
+}
+.cta-button{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+/**********************FOOTER SECTION****************************/
+#footer{
+    text-align: center;
+    padding: 2% 2% 0;
+}
